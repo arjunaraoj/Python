@@ -1,0 +1,16 @@
+Hi All,
+I am using same variables in multipple python script and wants to avaoid hard code values for future changes.
+How to keep all variable in one file like config and use them in my python script.
+Please help me.
+I tried to search in google but did not find the answer.
+Thanks in advance.
+
+Varibales:
+
+todaysdate = time.strftime("%Y%m%d")
+folder_name = 'SourceFiles'
+file_type = '.csv'
+file_titles = ['Column1']
+df['ID'] = df['Col1'].str[1:6]
+df['EmpName'] = df['Col1'].str[7:37]
+df['Salary'] = df['Col1'].str[38:58]
